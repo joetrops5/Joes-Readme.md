@@ -16,22 +16,22 @@ const questions = () => {
     {
       type: "input",
       name: "Table of contents",
-      message: "Table of contents",
+      message: "List your table of contents",
     },
     {
       type: "input",
       name: "Installation",
-      message: "Install your project",
+      message: "How do you install your project?",
     },
     {
       type: "input",
       name: "Usage",
-      message: "usage",
+      message: "What is this used for?",
     },
     {
       type: "input",
       name: "license",
-      message: "license",
+      message: "What is the license?",
     },
     {
       type: "input",
@@ -48,11 +48,11 @@ const questions = () => {
       name: "Questions",
       message: "Questions",
     },
-  ]);
+])
 };
-
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function createReadmefile({name, data}) => 
+
 
 // TODO: Create a function to initialize app
 function init() {}
