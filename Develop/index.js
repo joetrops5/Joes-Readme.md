@@ -1,4 +1,8 @@
 // TODO: Include packages needed for this application
+// const fs = require('fs');
+// fs.readFile()
+
+const inquirer = require("inquirer");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -48,14 +52,16 @@ const questions = () => {
       name: "Questions",
       message: "Questions",
     },
-])
+  ]);
 };
-// TODO: Create a function to write README file
-// function createReadmefile({name, data}) => 
 
+// TODO: Create a function to write README file
+// function createReadmefile({name, data}) =>
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  questions();
+}
 
 // Function call to initialize app
 init();
