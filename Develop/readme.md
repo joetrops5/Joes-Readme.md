@@ -1,6 +1,6 @@
 
   # 1
-  ![ISC](https://img.shields.io/badge/license-ISC-brightgreen)
+  ![Badge](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-brightgreen)
     
   ## Description
 
@@ -20,9 +20,9 @@
 
   ## License 
 
-  ISC 
+  GNU General Public License v3.0 
 
   ## Contributors 
 
-  1 
+  2 
   

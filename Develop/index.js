@@ -36,7 +36,7 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "What is the license?",
-      choices: ["MIT", "ISC"],
+      choices: ["GNU-Affero-General-Public-License-v3.0", "GNU General Public License v2.0", "GNU General Public License v3.0"],
     },
     {
       type: "input",
