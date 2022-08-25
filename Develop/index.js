@@ -34,7 +34,8 @@ const questions = () => {
       choices: [
         "GNU-Affero-General-Public-License-v3.0",
         "GNU General Public License v2.0",
-        "GNU General Public License v3.0", //Add an option for if no license is selected//
+        "GNU General Public License v3.0",
+        "None",
       ],
     },
     {
@@ -48,7 +49,7 @@ const questions = () => {
       message: "Tests",
     },
     {
-      type: "input",
+      type: "confirm",
       name: "questions",
       message: "Questions?",
     },

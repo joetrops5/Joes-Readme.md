@@ -29,7 +29,6 @@ const renderLicenseLink = (license) => {
   return "";
 };
 
-
 // Returns the description section for whichever is selected
 function renderLicenseSection(license) {
   if (license === "GNU-Affero-General-Public-License-v3.0") {
@@ -57,17 +56,17 @@ function generateMarkdown(data) {
 
   ## Table of Contents 
 
-  [Description](##Description)
+  [Description](#description)
 
-  [Installation](##Installation) 
+  [Installation](#installation) 
 
-  [Usage](##Usage)
+  [Usage](#usage)
 
-  [License](##License)
+  [License](#license)
 
-  [Contributors](##Contributors)
+  [Contributors](#contributors)
 
-  [test2](#dogs)
+  [Questions](#questions)
 
   ## Installation
 

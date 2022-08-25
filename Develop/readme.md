@@ -1,32 +1,32 @@
 
-  # 1
+  # ReadMe Generator
   ![Badge](https://img.shields.io/badge/License-GNU--Affero--General--Public--License--v3.0-brightgreen)
     
   ## Description
 
-  1
+  Proffesional ReadMe Project
 
   ## Table of Contents 
 
-  [Description](##Description)
+  [Description](#description)
 
-  [Installation](##Installation) 
+  [Installation](#installation) 
 
-  [Usage](##Usage)
+  [Usage](#usage)
 
-  [License](##License)
+  [License](#license)
 
-  [Contributors](##Contributors)
+  [Contributors](#contributors)
 
-  [test2](#dogs)
+  [Questions](#questions)
 
   ## Installation
 
-  1
+  node.js
 
   ## Usage 
 
-  1
+  Generating a Readme.md file in the command line based of the users input
 
   ## License 
 
@@ -234,10 +234,12 @@
 
   ## Contributors 
 
-  1 
+  Joe Tramontana 
 
+  
   ## Dogs 
 
+  
   ## Questions 
 
   Any inquiries please feel free to contact me <br>
