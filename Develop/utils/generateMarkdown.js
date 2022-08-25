@@ -12,7 +12,9 @@ function renderLicenseBadge(license) {
   if (license == "GNU General Public License v3.0") {
     return "![Badge](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-brightgreen)";
   }
-  return "";
+  if (license === "None") {
+    return "";
+  }
 }
 
 // Returns the license link based on selection or a string if nothing is selected
@@ -26,7 +28,9 @@ const renderLicenseLink = (license) => {
   if (license === "GNU General Public License v3.0") {
     return `[Link to ${license}](https://www.gnu.org/licenses/gpl-3.0.en.html)`;
   }
-  return "";
+  if (license === "None") {
+    return "";
+  }
 };
 
 // Returns the description section for whichever is selected
@@ -40,7 +44,9 @@ function renderLicenseSection(license) {
   if (license === "GNU General Public License v3.0") {
     return licenseSections.license3;
   }
-  return "";
+  if (license === "None") {
+    return "";
+  }
 }
 
 // Generates the Readme file based on users selections
@@ -85,15 +91,11 @@ function generateMarkdown(data) {
 
   ${data.contributors} 
 
-  
-  ## Dogs 
-
-  
   ## Questions 
 
   Any inquiries please feel free to contact me <br>
-  Github: <br>
-  Email: <br>
+  Github: [${data.github}](https://github.com/${data.github}) <br>
+  Email: ${data.email} <br>
   `;
 }
 

@@ -4,7 +4,7 @@
     
   ## Description
 
-  Proffesional ReadMe Project
+  Professional generated ReadMe
 
   ## Table of Contents 
 
@@ -26,7 +26,7 @@
 
   ## Usage 
 
-  Generating a Readme.md file in the command line based of the users input
+  Generating a Readme.md file based on the users input to the questions asked inside the command line
 
   ## License 
 
@@ -236,13 +236,9 @@
 
   Joe Tramontana 
 
-  
-  ## Dogs 
-
-  
   ## Questions 
 
   Any inquiries please feel free to contact me <br>
-  Github: <br>
-  Email: <br>
+  Github: [Joetrops5](https://github.com/Joetrops5) <br>
+  Email: jtropss@aol.com <br>
   

@@ -53,6 +53,16 @@ const questions = () => {
       name: "questions",
       message: "Questions?",
     },
+    {
+      type: "input",
+      name: "github",
+      message: "What is your github username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email?",
+    },
   ]);
 };
 
