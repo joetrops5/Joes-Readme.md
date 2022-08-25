@@ -1,9 +1,7 @@
 ## Joes-Readme.md 
 
-This is still a work in progress.
+Finished with everything except for this Readme file.
 
 ### TO DO: 
 
-1. Users github username and email is added to questions section to readme with link 
-2. Walkthrough video and link in my own readme to demonstrate functionality 
-3. Add more comments 
+1. Fix up this Readme to meet requirements, add walkthrough video.
