@@ -1,3 +1,4 @@
+//Created seperate JS folder to keep clean and organized
 const licenseSections = {
   license1: `
     The GNU General Public License is a free, copyleft license for software and other kinds of works.

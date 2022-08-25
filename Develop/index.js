@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// fs is used to write to readme file
 const fs = require("fs");
 
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+// Array of questions that will appear in the command line
 const questions = () => {
   return inquirer.prompt([
     {
@@ -55,11 +55,10 @@ const questions = () => {
   ]);
 };
 
-// TODO: Create a function to initialize app
+// Async function that gets usersinput and contents and writes to the readme file.
 async function init() {
   const userInput = await questions();
   const contents = generateMarkdown(userInput);
-  // console.log(contents);
   fs.writeFile("readme.md", contents, function (err) {
     if (err) throw err;
     console.log("Your Readme Has Been Successfully Created!");

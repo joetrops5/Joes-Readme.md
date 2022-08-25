@@ -1,6 +1,7 @@
+// Gets licenseSections object from the seperate JS file into this one
 const licenseSections = require("./licenseSections");
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
+// Returns the corresponding license badge or a string if nothing is selected.
 function renderLicenseBadge(license) {
   if (license == "GNU-Affero-General-Public-License-v3.0") {
     return "![Badge](https://img.shields.io/badge/License-GNU--Affero--General--Public--License--v3.0-brightgreen)";
@@ -14,8 +15,7 @@ function renderLicenseBadge(license) {
   return "";
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Returns the license link based on selection or a string if nothing is selected
 const renderLicenseLink = (license) => {
   if (license === "GNU-Affero-General-Public-License-v3.0") {
     return `[Link to ${license}](https://www.gnu.org/licenses/agpl-3.0.en.html)`;
@@ -29,8 +29,8 @@ const renderLicenseLink = (license) => {
   return "";
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
+// Returns the description section for whichever is selected
 function renderLicenseSection(license) {
   if (license === "GNU-Affero-General-Public-License-v3.0") {
     return licenseSections.license1;
@@ -44,7 +44,7 @@ function renderLicenseSection(license) {
   return "";
 }
 
-// TODO: Create a function to generate markdown for README
+// Generates the Readme file based on users selections
 function generateMarkdown(data) {
   console.log(data);
   return `
