@@ -15,28 +15,27 @@ const questions = () => {
     {
       type: "input",
       name: "description",
-      message: "Give a brief description of your Readme",
-    },
-    {
-      type: "input",
-      name: "tableOfContents",
-      message: "List your table of contents",
+      message: "Give a brief description of your application",
     },
     {
       type: "input",
       name: "installation",
-      message: "How do you install your project?",
+      message: "How do you install your application?",
     },
     {
       type: "input",
       name: "usage",
-      message: "What is this used for?",
+      message: "What is the application used for?",
     },
     {
       type: "list",
       name: "license",
-      message: "What is the license?",
-      choices: ["GNU-Affero-General-Public-License-v3.0", "GNU General Public License v2.0", "GNU General Public License v3.0"],
+      message: "Did you use a license?",
+      choices: [
+        "GNU-Affero-General-Public-License-v3.0",
+        "GNU General Public License v2.0",
+        "GNU General Public License v3.0", //Add an option for if no license is selected//
+      ],
     },
     {
       type: "input",
@@ -55,8 +54,6 @@ const questions = () => {
     },
   ]);
 };
-
-// TODO: Create a function to write README file
 
 // TODO: Create a function to initialize app
 async function init() {
