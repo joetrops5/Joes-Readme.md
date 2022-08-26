@@ -4,7 +4,7 @@
     
   ## Description
 
-  Professional generated ReadMe
+  Professional ReadMe generated quickly
 
   ## Table of Contents 
 
@@ -26,7 +26,7 @@
 
   ## Usage 
 
-  Generating a Readme.md file based on the users input to the questions asked inside the command line
+  generating a readme inside the commandline quickly for a usesr based on their input 
 
   ## License 
 

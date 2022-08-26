@@ -46,12 +46,7 @@ const questions = () => {
     {
       type: "input",
       name: "tests",
-      message: "Tests",
-    },
-    {
-      type: "confirm",
-      name: "questions",
-      message: "Questions?",
+      message: "Is this for a test?",
     },
     {
       type: "input",
