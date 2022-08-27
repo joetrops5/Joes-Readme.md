@@ -1,8 +1,6 @@
-## Joes-Readme.md 
-
+# Joes-Readme.md 
 ---
 
-<br>
 
 ## Table of Contents
 
